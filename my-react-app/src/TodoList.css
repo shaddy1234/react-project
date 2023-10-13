@@ -1,0 +1,69 @@
+/* Style the entire todo list container */
+.todo-list {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the title */
+  .todo-list h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Style the input and button */
+  .todo-input {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .todo-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .todo-input button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Style the todo list items */
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the delete button */
+  .todo-item button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px; /* Increase padding for the button */
+    transition: background-color 0.3s; /* Add a smooth background color transition */
+  }
+  
+  /* Change the button style when hovering */
+  .todo-item button:hover {
+    background-color: #c0392b;
+  }
